@@ -1,0 +1,53 @@
+Single Dimension Array 
+
+
+1. Write a program in C to find largest element in Array. 
+#include <stdio.h> 
+#include<conio.h> 
+void main() 
+{ 
+int array[100], maximum, n, i, location= -1; 
+printf("Enter the number of elements in array\n"); 
+scanf("%d", &n); 
+printf("Enter array elements); 
+for (i = 0; i < n; i++) 
+scanf("%d", &array[i]); 
+maximum = array[0]; 
+for (i= 1; i< n; i++) 
+{ 
+if (array[i] > maximum) 
+{ 
+maximum  = array[i]; 
+location = i+1; 
+} 
+} 
+printf("Maximum element is present at location %d and its value is %d.\n", location, 
+maximum); 
+getch(); 
+} 
+2. Write a Program in C to implement Linear Search. 
+#include<stdio.h> 
+#include<conio.h> 
+void main() 
+{ 
+int a[20],i,item,n; 
+printf("How many elements?"); 
+scanf("%d",&n); 
+printf("Enter array elements:n"); 
+for(i=0;i<n;++i) 
+{ 
+{ 
+else 
+} 
+scanf("%d",&a[i]); 
+}  
+printf("nEnter element to search:"); 
+scanf("%d",&item); 
+for(i=0;i<n;i++) 
+if(a[i]==item) 
+break; 
+} 
+if(i<n) 
+printf("Element found at location %d",i+1); 
+printf("Element not found"); 
+return 0; 
