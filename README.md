@@ -1,48 +1,91 @@
-# 📚 Data Structure Notes in C
+# 🍵 Data Structure Notes in C
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Language-C-blue" alt="C Language">
-  <img src="https://img.shields.io/badge/Level-Beginner%20to%20Advanced-green" alt="Level">
-  <img src="https://img.shields.io/badge/Code%20Examples-Yes-orange" alt="Examples">
+  <img src="https://img.shields.io/badge/❤️-C_Programming-blue?style=flat-square&logo=c" width="120">
 </p>
 
 <p align="center">
-  <b>Complete Data Structures notes with C implementations</b><br>
-  <i>Faculty: Ashwani Mishra</i>
+  <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c">
+  <img src="https://img.shields.io/badge/Level-Beginner--Advanced-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Code-Ready-orange?style=for-the-badge">
 </p>
 
+<p align="center">
+  <b>👨‍🏫 Faculty:</b> Ashwani Mishra
+</p>
+
+<hr>
+
+<h2 align="center">✨ Welcome to Data Structures in C ✨</h2>
+
+<p align="center">
+  <b>Complete notes with implementations | 4 Units | 50+ Programs | Interview Ready</b>
+</p>
+
+<br>
+
+## 📋 Quick Navigation
+
+| [🏠 Home](#) | [📘 Unit 1](#-unit-i-arrays-and-matrix) | [📗 Unit 2](#-unit-ii-linear-data-structures) | [📙 Unit 3](#-unit-iii-sorting-algorithms) | [📕 Unit 4](#-unit-iv-trees--hashing) | [📚 Books](#-books) |
+|--------------|-----------------------------------------|----------------------------------------------|--------------------------------------------|----------------------------------------|-------------------|
+
+<br>
+
+## 🎯 What You'll Learn
+
+<table>
+  <tr>
+    <td align="center">🔢 <b>Arrays</b></td>
+    <td align="center">🔗 <b>Linked Lists</b></td>
+    <td align="center">🥞 <b>Stacks</b></td>
+    <td align="center">🚶 <b>Queues</b></td>
+  </tr>
+  <tr>
+    <td align="center">🌲 <b>Trees</b></td>
+    <td align="center">⚡ <b>Sorting</b></td>
+    <td align="center">🔑 <b>Hashing</b></td>
+    <td align="center">📊 <b>Complexity</b></td>
+  </tr>
+</table>
+
+<br>
+
 ---
 
-## 📖 About This Repository
+## 📘 Unit I: Arrays and Matrix
 
-This repository contains comprehensive notes on Data Structures using C programming language. The material is organized into 4 units, covering everything from basic arrays to advanced trees and hashing techniques.
-
----
-
-## 📑 Course Structure
-
-| Unit | Topic | Difficulty | Hours |
-|------|-------|------------|-------|
-| **I** | Arrays and Matrix Representations | 🟢 Beginner | 8-10 hrs |
-| **II** | Linear Data Structures (Stacks, Queues, Linked Lists) | 🟡 Intermediate | 12-15 hrs |
-| **III** | Sorting Algorithms & Statistics | 🟠 Intermediate-Advanced | 10-12 hrs |
-| **IV** | Trees, Hashing & Advanced Structures | 🔴 Advanced | 15-18 hrs |
-
----
-
-## 📌 Unit I: Arrays and Matrix Representations
-
-**Topics Covered:**
-- Single and Multidimensional Arrays
-- Sparse Arrays implementation
-- Lower and Upper Triangular Matrices
-- Tridiagonal Space Matrices
-- Memory allocation strategies
+<table>
+  <tr>
+    <th width="30%">Topic</th>
+    <th width="50%">Description</th>
+    <th width="20%">Status</th>
+  </tr>
+  <tr>
+    <td>📊 Single & Multi Arrays</td>
+    <td>Memory representation, operations</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td>📉 Sparse Arrays</td>
+    <td>Efficient storage techniques</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td>📐 Triangular Matrices</td>
+    <td>Lower, Upper, Tridiagonal</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td>💾 Memory Allocation</td>
+    <td>Static vs Dynamic strategies</td>
+    <td align="center">✅</td>
+  </tr>
+</table>
 
 ```c
-// Example: Sparse Matrix Representation
-typedef struct {
+// 🌟 Sparse Matrix Representation
+struct Sparse {
     int row;
     int col;
     int value;
-} SparseElement;
+};
