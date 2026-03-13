@@ -1,91 +1,93 @@
-# 🍵 Data Structure Notes in C
+# Data Structure Notes in C
 
-<p align="center">
-  <img src="https://img.shields.io/badge/❤️-C_Programming-blue?style=flat-square&logo=c" width="120">
-</p>
+## 📚 Course Overview
+Comprehensive C programming notes covering all fundamental data structures and algorithms across 4 units. These notes are structured according to the standard syllabus with practical implementations and theoretical foundations.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c">
-  <img src="https://img.shields.io/badge/Level-Beginner--Advanced-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Code-Ready-orange?style=for-the-badge">
-</p>
+## 📖 Units Breakdown (Based on Provided Syllabus)
 
-<p align="center">
-  <b>👨‍🏫 Faculty:</b> Ashwani Mishra
-</p>
+### **Unit I: Arrays and Matrix Representations**
+- **Single and Multidimensional Arrays** in C
+- **Sparse Arrays** implementation and optimization
+- **Lower and Upper Triangular Matrices** with memory-efficient storage
+- **Tridiagonal Space Matrices** with vector representation
+- Memory allocation strategies for matrix operations
 
-<hr>
+### **Unit II: Linear Data Structures and Trees**
+- **Stacks**: Array and linked implementations, applications
+- **Queues**: Linear, circular, and priority queues
+- **Linked Lists**:
+  - Singly Linked Lists
+  - Doubly Linked Lists
+  - Circular Linked Lists
+- **Implementing Pointers and Objects** in C
+- **Representing Rooted Trees** using various data structures
 
-<h2 align="center">✨ Welcome to Data Structures in C ✨</h2>
+### **Unit III: Sorting Algorithms and Statistics**
+- **Heap Sort**: Implementation and complexity analysis
+- **Quick Sort**: Partitioning strategies, worst-case scenarios
+- **Counting Sort**: Non-comparison based sorting
+- **Radix Sort**: LSD and MSD implementations
+- **Bucket Sort**: Distribution sorting technique
+- **Median and Order Statistics**: Selection algorithms, finding k-th smallest element
 
-<p align="center">
-  <b>Complete notes with implementations | 4 Units | 50+ Programs | Interview Ready</b>
-</p>
+### **Unit IV: Trees, Hashing, and Advanced Structures**
+- **Binary Trees**: Introduction and terminology
+- **Tree Traversals**: Inorder, Preorder, Postorder (recursive and iterative)
+- **Recursive Algorithms** for tree operations:
+  - Insertion and Deletion operations
+  - Search and modification algorithms
+- **Binary Search Tree (BST)**: Properties, operations, balancing
+- **B-Tree**: Multiway search trees, operations
+- **Indexing with Binary Search Trees**
+- **Hash Tables**:
+  - Direct Address Tables
+  - Hash Functions design and properties
+  - Open Addressing techniques
+  - Collision resolution strategies
 
-<br>
+## 📚 Recommended Textbooks
+1. **Fundamentals of Data Structures Using C** - Horwitz and Sahni (Silicon Press)
+2. **Data Structures & Algorithms** - R.S. Salaria (Khanna Publishers)
+3. **Data Structures using C and C++** - Langsam, Augenstein, and Tenenbaum (PHI)
+4. **Introduction to Algorithms** - Thomas H. Cormen, Charles E. Leiserson, and Ronald L. Rivest (MIT Press)
 
-## 📋 Quick Navigation
+## 🛠️ Key Features
+- Complete C implementations for all data structures
+- Algorithm complexity analysis (Time & Space)
+- Memory-efficient representations
+- Practical examples with step-by-step explanations
+- Common operations and their implementations
+- Interview-focused problem-solving approaches
 
-| [🏠 Home](#) | [📘 Unit 1](#-unit-i-arrays-and-matrix) | [📗 Unit 2](#-unit-ii-linear-data-structures) | [📙 Unit 3](#-unit-iii-sorting-algorithms) | [📕 Unit 4](#-unit-iv-trees--hashing) | [📚 Books](#-books) |
-|--------------|-----------------------------------------|----------------------------------------------|--------------------------------------------|----------------------------------------|-------------------|
+## 📝 Learning Path
+1. **Start with Unit I** to understand basic array structures and memory management
+2. **Proceed to Unit II** for linear data structures foundational knowledge
+3. **Study Unit III** for sorting algorithms and statistical operations
+4. **Complete with Unit IV** for advanced tree structures and hashing techniques
 
-<br>
+## 🎯 Learning Outcomes
+After completing these notes, you will be able to:
+- Implement and use various data structures in C efficiently
+- Analyze time and space complexity of algorithms
+- Choose appropriate data structures for specific problems
+- Implement efficient sorting and searching algorithms
+- Design and implement hash tables for fast data retrieval
+- Understand tree-based data structures and their applications
 
-## 🎯 What You'll Learn
+## 💻 Prerequisites
+- Basic knowledge of C programming language
+- Understanding of pointers and dynamic memory allocation
+- Familiarity with basic programming concepts
 
-<table>
-  <tr>
-    <td align="center">🔢 <b>Arrays</b></td>
-    <td align="center">🔗 <b>Linked Lists</b></td>
-    <td align="center">🥞 <b>Stacks</b></td>
-    <td align="center">🚶 <b>Queues</b></td>
-  </tr>
-  <tr>
-    <td align="center">🌲 <b>Trees</b></td>
-    <td align="center">⚡ <b>Sorting</b></td>
-    <td align="center">🔑 <b>Hashing</b></td>
-    <td align="center">📊 <b>Complexity</b></td>
-  </tr>
-</table>
+## 📈 Difficulty Progression
+- **Unit I**: Beginner level (foundational concepts)
+- **Unit II**: Intermediate level (linear structures)
+- **Unit III**: Intermediate-Advanced (sorting algorithms)
+- **Unit IV**: Advanced level (trees and hashing)
 
-<br>
-
----
-
-## 📘 Unit I: Arrays and Matrix
-
-<table>
-  <tr>
-    <th width="30%">Topic</th>
-    <th width="50%">Description</th>
-    <th width="20%">Status</th>
-  </tr>
-  <tr>
-    <td>📊 Single & Multi Arrays</td>
-    <td>Memory representation, operations</td>
-    <td align="center">✅</td>
-  </tr>
-  <tr>
-    <td>📉 Sparse Arrays</td>
-    <td>Efficient storage techniques</td>
-    <td align="center">✅</td>
-  </tr>
-  <tr>
-    <td>📐 Triangular Matrices</td>
-    <td>Lower, Upper, Tridiagonal</td>
-    <td align="center">✅</td>
-  </tr>
-  <tr>
-    <td>💾 Memory Allocation</td>
-    <td>Static vs Dynamic strategies</td>
-    <td align="center">✅</td>
-  </tr>
-</table>
-
-```c
-// 🌟 Sparse Matrix Representation
-struct Sparse {
-    int row;
-    int col;
-    int value;
-};
+## 🔍 Topics for Further Study
+- Advanced graph algorithms
+- Dynamic programming applications
+- Advanced hashing techniques
+- File organization methods
+- External sorting algorithms
